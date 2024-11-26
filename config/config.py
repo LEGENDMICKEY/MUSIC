@@ -27,7 +27,7 @@ API_HASH = getenv("API_HASH")
 ## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-BOT_USERNAME = getenv("BOT_USERNAME", "Mommy_x_musicbot")
+BOT_USERNAME = getenv("BOT_USERNAME", "SaraDJ_Music_Bot)
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
@@ -77,7 +77,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "7297381612").split())
+    map(int, getenv("OWNER_ID", "6484788124").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -111,15 +111,15 @@ AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Kittyxupdates"
-)  # Example:- https://t.me/VIP_CREATORS
+    "SUPPORT_CHANNEL", "https://t.me/Nepsxbot"
+)  # Example:- https://t.me/Nepsxbot
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TG_FRIENDSS"
-)  # Example:- https://t.me/TG_FRIENDSS
+    "SUPPORT_GROUP", "https://t.me/THExNIGHTxCLUBbb"
+)  # Example:- https://t.me/THExNIGHTxCLUBbb
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_GROUP", "https://t.me/Grandxmasti"
-)  # Example:- https://t.me/Grandxmasti
+    "SUPPORT_GROUP", "https://t.me/THExNIGHTxCLUBbb"
+)  # Example:- https://t.me/THExNIGHTxCLUBbb
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
 
@@ -207,12 +207,12 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://envs.sh/jfD.jpg",
+    "https://graph.org/file/818d2582adf5189d01466-e5599903fa03a85998.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://envs.sh/jg-.jpg",
+    "https://graph.org/file/0c114b0af4ceae90b0166-d239a9c833905aa423.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
