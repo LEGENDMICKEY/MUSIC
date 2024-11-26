@@ -167,14 +167,14 @@ async def help_command(client, message):
     # Define the buttons
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("• Open in private •", url="https://t.me/Mommy_x_musicbot?start=help")],
+            [InlineKeyboardButton("• Open in private •", url="https://t.me/SaraDJ_Music_Bot?start=help")],
             [InlineKeyboardButton("• Open here •", callback_data="features")]
         ]
     )
     
     # Send photo with text and buttons
     await message.reply_photo(
-        photo="https://envs.sh/jl2.png",  # Replace with your photo path or URL
+        photo="https://graph.org/file/818d2582adf5189d01466-e5599903fa03a85998.jpg",  # Replace with your photo path or URL
         caption="» Choose a way to get help from me ✨",
         reply_markup=keyboard
             )
@@ -185,8 +185,8 @@ async def help_command(client, message):
     # Define the buttons
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("• Add me •", url="https://t.me/Mommy_x_musicbot?startgroup=true")],
-            [InlineKeyboardButton("• Update •", url="https://t.me/Nonsecularowner")]
+            [InlineKeyboardButton("• Add me •", url="https://t.me/SaraDJ_Music_Bot?startgroup=true")],
+            [InlineKeyboardButton("• Update •", url="https://t.me/Nepsxbot")]
         ]
     )
     
@@ -497,9 +497,9 @@ async def tools_callback_cb(client, CallbackQuery, _):
 async def about_callback(client: Client, callback_query: CallbackQuery):
     buttons = [
         [
-            InlineKeyboardButton(text="𝗥𝗜𝗢", url=f"https://t.me/Nonsecularowner/14"),
+            InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/Aviii56"),
             InlineKeyboardButton(
-                text="Owner's clan 🎄", url=f"https://t.me/Nonsecularowner"
+                text="Owner's clan 🎄", url=f"https://t.me/THExNIGHTxCLUBbb"
             ),
         ],
         [
@@ -511,7 +511,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
         ],  # Use a default label for the back button
     ]
     await callback_query.message.edit_text(
-        "**Hey,**\n\n**I am Mommy bot ✨**\n**I am created with love by my [𝗥𝗜𝗢](https://t.me/Nonsecularhindu)🌙 ❤.**",
+        "**Hey,**\n\n**I am Sara bot ✨**\n**I am created with love by my [ᴏᴡɴᴇʀ](https://t.me/Aviii56)🌙 ❤.**",
         reply_markup=InlineKeyboardMarkup(buttons),
     )
 
@@ -691,7 +691,7 @@ async def tools_callback(client: Client, callback_query: CallbackQuery):
     )
 
     await callback_query.message.edit(
-        f"``**Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.  Iғ ʏᴏᴜ'ʀᴇ ғᴀᴄɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ ɪɴ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.](t.me/meradad)**\n\n**Aʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: /**``",
+        f"``**Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.  Iғ ʏᴏᴜ'ʀᴇ ғᴀᴄɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ ɪɴ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.](t.me/THExNIGHTxCLUBbb)**\n\n**Aʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: /**``",
         reply_markup=keyboard,
     )
 
@@ -716,7 +716,7 @@ async def feature_callback(client: Client, callback_query: CallbackQuery):
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
 
-    k = f"""Annie bot 🦋 help menu ✨"""
+    k = f"""Sara bot 🦋 help menu ✨"""
     await callback_query.message.edit_text(
         text=k,
         reply_markup=InlineKeyboardMarkup(keyboard),
@@ -775,7 +775,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
             ),
         ],
         [
-            InlineKeyboardButton(text="⭐ Support ⭐", url=f"t.me/meradad"),
+            InlineKeyboardButton(text="⭐ Support ⭐", url=f"t.me/THExNIGHTxCLUBbb"),
             InlineKeyboardButton(text="👨‍💻Developer", callback_data="developer"),
         ],
         [
@@ -785,7 +785,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
         [InlineKeyboardButton(text="🔙 Back", callback_data="go_to_start")],
     ]
     await callback_query.message.edit_text(
-        f"Hi i am Mommy bot 🦋\nA powerful and awesome telegram group management and music player that gives you spam-free and fun environment for your groups :)\n\n**ᴀ ᴘᴏᴡᴇʀғᴜʟ ᴀɴᴅ ᴀᴡᴇsᴏᴍᴇ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴛʜᴀᴛ ɢɪᴠᴇs ʏᴏᴜ sᴘᴀᴍ-ғʀᴇᴇ ᴀɴᴅ ғᴜɴ ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘs :)\n\n● I can restrict users.\n● I can greet users with customizable welcome messages and even set a group's rules.\n● I have a music player system.\n● I have almost all awaited group managing features like ban, mute, welcome, kick, federation, and many more.\n● I have a note-keeping system, blacklists, and even predetermined replies on certain keywords.\n● I check for admins' permissions before executing any command and more stuff\n\n➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ Annie bot 🦋.",
+        f"Hi i am Sara bot 🦋\nA powerful and awesome telegram group management and music player that gives you spam-free and fun environment for your groups :)\n\n**ᴀ ᴘᴏᴡᴇʀғᴜʟ ᴀɴᴅ ᴀᴡᴇsᴏᴍᴇ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴛʜᴀᴛ ɢɪᴠᴇs ʏᴏᴜ sᴘᴀᴍ-ғʀᴇᴇ ᴀɴᴅ ғᴜɴ ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘs :)\n\n● I can restrict users.\n● I can greet users with customizable welcome messages and even set a group's rules.\n● I have a music player system.\n● I have almost all awaited group managing features like ban, mute, welcome, kick, federation, and many more.\n● I have a note-keeping system, blacklists, and even predetermined replies on certain keywords.\n● I check for admins' permissions before executing any command and more stuff\n\n➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ Annie bot 🦋.",
         reply_markup=InlineKeyboardMarkup(buttons),
     )
 
@@ -793,7 +793,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
 async def about_callback(client: Client, callback_query: CallbackQuery):
     buttons = [
         [
-            InlineKeyboardButton(text="Guide 📃", url=f"t.me/meradad"),
+            InlineKeyboardButton(text="Guide 📃", url=f"t.me/THExNIGHTxCLUBbb"),
             InlineKeyboardButton(text="👨‍💻Developer", callback_data="developer"),
         ],
         [
@@ -820,8 +820,8 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
             ),
         ],
         [
-            InlineKeyboardButton(text="⛅Group⛅", url=f"https://t.me/Nonsecularowner"),
-            InlineKeyboardButton(text="🎄Update🎄", url=f"https://t.me/meradad "),
+            InlineKeyboardButton(text="⛅Group⛅", url=f"https://t.me/THExNIGHTxCLUBbb"),
+            InlineKeyboardButton(text="🎄Update🎄", url=f"https://t.me/Nepsxbot"),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
@@ -843,8 +843,8 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
             ),
         ],
         [
-            InlineKeyboardButton(text="Annie updates", url=f"https://t.me/Nonsecularowner"),
-            InlineKeyboardButton(text="Share ur query💡", url=f"https://t.me/meradad"),
+            InlineKeyboardButton(text="Sara updates", url=f"https://t.me/Nepsxbot"),
+            InlineKeyboardButton(text="Share ur query💡", url=f"https://t.me/THExNIGHTxCLUBbb"),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
@@ -864,14 +864,14 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
             ),
         ],
         [
-            InlineKeyboardButton(text="Mommy updates", url=f"https://t.me/Nonsecularowner"),
-            InlineKeyboardButton(text="Share ur query💡", url=f"https://t.me/meradad"),
+            InlineKeyboardButton(text="Sara updates", url=f"https://t.me/Nepsxbot"),
+            InlineKeyboardButton(text="Share ur query💡", url=f"https://t.me/THExNIGHTxCLUBbb"),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
     
     await callback_query.message.edit_text(
-        "Hey,\nThis is Mommy bot 🦋\n\nAn open source telegram group management+ music bot\nHere is my source code [Repo](https://github.com/yourtoofan/MOMMYMUSIC/fork) (✿◠‿◠)",
+        "Hey,\nThis is Sara bot 🦋\n\nAn open source telegram group management+ music bot\nHere is my source code [Repo](https://github.com/yourtoofan/MOMMYMUSIC/fork) (✿◠‿◠)",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
 
