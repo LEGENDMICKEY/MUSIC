@@ -66,12 +66,12 @@ def music_start_panel(_):
             )
         ],
         [
-            InlineKeyboardButton(text="⭐ 𝗔вσυт 𝗠є⭐", callback_data="about"),
-            InlineKeyboardButton(text="✨ 𝗛єℓρ ✨", callback_data="feature"),
+            InlineKeyboardButton(text="❄ 𝗔вσυт 𝗠є ❄", callback_data="about"),
+            InlineKeyboardButton(text="❄ 𝗛єℓρ ❄", callback_data="feature"),
         ],
         [
             InlineKeyboardButton(text="❄ 𝗢ωηєя ❄", callback_data="developer"),
-            InlineKeyboardButton(text="❄ 𝗨ρ∂αтє ❄", url="https://t.me/Nonsecularowner"),
+            InlineKeyboardButton(text="❄ 𝗨ρ∂αтє ❄", url="https://t.me/THExNIGHTxCLUBbb"),
         ],
     ]
     return buttons
